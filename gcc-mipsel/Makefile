@@ -5,7 +5,7 @@
 # See /LICENSE for more information.
 #
 include $(TOPDIR)/rules.mk
-PKG_NAME:=gcc
+PKG_NAME:=gcc-mipsel
 PKG_VERSION:=4.6.4
 PKG_RELEASE:=1
 PATCH_DIR=$(TOPDIR)/toolchain/gcc/patches/$(PKG_VERSION)
