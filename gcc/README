@@ -13,6 +13,7 @@ echo "src-git addon https://github.com/sonnyyu/addon.git" >>feeds.conf.default
 ./scripts/feeds update addon
 ./scripts/feeds uninstall gcc
 ./scripts/feeds install -p addon gcc
+make menuconfig
 make package/feeds/addon/gcc/compile V=s
 
 
